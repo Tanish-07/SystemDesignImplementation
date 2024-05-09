@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142732521934",
+    "project_id": "systemdesignimplementation",
+    "storage_bucket": "systemdesignimplementation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142732521934:android:6d387ad9e3b9f5197bbb9f",
+        "android_client_info": {
+          "package_name": "com.example.systemdesignimplementation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNTdPwz2SS184kN22IZxRI1Os37ORKqJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
