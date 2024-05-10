@@ -41,7 +41,6 @@
         android:ems="10"
         android:hint="User-Name"
         android:inputType="text"
-        android:textColorHint="@android:color/black"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -55,13 +54,12 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:textColorHint="@android:color/black"
         app:layout_constraintEnd_toEndOf="@+id/UserName"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/UserName"
         app:layout_constraintTop_toBottomOf="@+id/UserName" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -69,11 +67,11 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="@android:color/black"
         app:layout_constraintEnd_toEndOf="@+id/UserName"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/UserName"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        />
 
     <EditText
         android:id="@+id/repassword"
@@ -83,7 +81,6 @@
         android:ems="10"
         android:hint="Re-Password"
         android:inputType="textPassword"
-        android:textColorHint="@android:color/black"
         app:layout_constraintEnd_toEndOf="@+id/email"
         app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/password" />
@@ -116,7 +113,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/RegisterMain"
         app:layout_constraintTop_toBottomOf="@+id/RegisterMain" />
-
 
 
 

@@ -44,7 +44,7 @@ class LoginAuthenticationActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email,password)
                     .addOnCompleteListener{task ->
                         if (task.isSuccessful){
-                            startActivity(Intent(this,MainActivity::class.java))
+                            startActivity(Intent(this,RedditActivity::class.java))
                             finish()
                         }else{
                             Toast.makeText(this, "Login Failed: ${task.exception?.message}", Toast.LENGTH_SHORT).show()
